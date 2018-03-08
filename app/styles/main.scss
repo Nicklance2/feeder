@@ -111,6 +111,8 @@ body {
     padding-right: 100px;
     height: 80px;
     padding-bottom: 0px;
+    max-width: 1600px;
+    margin: auto;
 }
 .home-top-container .header .logo{
     line-height: 80px;
@@ -132,6 +134,7 @@ body {
 }
 .home-top-container{
     background: #D0D0D0;
+    position: relative;
 }
 
 .homepage-top{
@@ -151,11 +154,27 @@ body {
 .homepage-top span.span-small2{
     font-family: "Open Sans";	font-size: 16px;	font-weight: 300;	line-height: 20px;
 }
+.home-top-section-arrow-down{
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    font-size: 28px;
+    cursor: pointer;
+}
+.home-top-section-arrow-down:hover{
+    color: #fff;
+}
+.about-section{
+    padding-bottom: 94px;
+    padding-top: 80px;
+}
 .about-section .wrapper{
     max-width: 901px;
     margin: auto;
-    margin-bottom: 94px;
-    margin-top: 80px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 .about-section h1{
     color: #333333;	font-size: 32px;	font-weight: 300;	line-height: 44px;
@@ -173,7 +192,7 @@ body {
 }
 .home-section3 .why-to-choose{
     padding-top: 130px;
-    padding-bottom: 30px;
+    padding-bottom: 130px;
     padding-left: 80px;
 }
 .home-section3 .why-to-choose .wrapper{

@@ -17,6 +17,7 @@
     <!-- build:css styles/main.css -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <script src="https://use.fontawesome.com/c36019b526.js"></script>
     <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
@@ -28,12 +29,12 @@
 
     <!-- endbuild -->
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#home">
     <!--[if IE]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <div class="container-fluid no-side-padding home-top-container">
+    <div id="home" class="container-fluid no-side-padding home-top-container">
         <div class="header">
           <ul class="nav nav-pills float-right main-pages-nav">
             <li class="nav-item">
@@ -65,8 +66,9 @@
                 <span class="span-small2">Well, the way they make shows is, they make one show.</span>
             </div>
         </div>
+        <a class="home-top-section-arrow-down" href="#about-feeder"><span class="fa fa-arrow-down"></span></a>
     </div>
-    <div class="container-fluid about-section text-center">
+    <div id="about-feeder" class="container-fluid about-section text-center">
         <div class="wrapper">
             <h1>About Feeder</h1>
             <p>
@@ -76,7 +78,9 @@
                 Fusce lobortis erat ante, eu cursus sapien molestie at. Pellentesque placerat ante diam, et euismod lacus dictum vel.
                 Phasellus vitae sollicitudin mi.
             </p>
+            <div class="clearfix"></div>
         </div>
+        <div class="clearfix"></div>
     </div>
     <div class="container-fluid home-section3">
         <div class="row">

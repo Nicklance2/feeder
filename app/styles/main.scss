@@ -1,0 +1,214 @@
+// bower:scss
+// endbower
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* Space out content a bit */
+body {
+    font-family: "Open Sans";
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+/* Custom page header */
+.header {
+  padding-bottom: 1rem;
+  border-bottom: .05rem solid #e5e5e5;
+}
+
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 3rem;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 1.5rem;
+  color: #777;
+  border-top: .05rem solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 48em) {
+  .container {
+    max-width: 46rem;
+  }
+}
+.container-narrow > hr {
+  margin: 2rem 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: .05rem solid #e5e5e5;
+}
+.jumbotron .btn {
+  padding: .75rem 1.5rem;
+  font-size: 1.5rem;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 3rem 0;
+}
+.marketing p + h4 {
+  margin-top: 1.5rem;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 48em) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 2rem;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+.no-side-padding{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.column4{
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+}
+.no-column-gap{
+    -webkit-column-gap: 0px;
+    -moz-column-gap: 0px;
+    column-gap: 0px;
+}
+.reset-ul{
+    margin: 0px;
+    padding: 0px;
+}
+.home-top-container .header{
+    border-bottom: none;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 80px;
+    padding-bottom: 0px;
+}
+.home-top-container .header .logo{
+    line-height: 80px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.main-pages-nav{
+
+}
+.main-pages-nav li a{
+    color: #FFFFFF;	font-size: 11px;	letter-spacing: 3px;	line-height: 19px;
+    text-transform: uppercase;
+    line-height: 80px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+.main-pages-nav.nav-pills .nav-link.active{
+    background-color: inherit;
+}
+.home-top-container{
+    background: #D0D0D0;
+}
+
+.homepage-top{
+    color: #FFFFFF;
+    text-align: center;
+    background: none;
+    height: 788px;
+}
+.homepage-top h1{
+    font-family: "Open Sans";	font-size: 40px;	font-weight: 300;	line-height: 58px;
+}
+.homepage-top span.span-small{
+    font-family: Raleway;	font-size: 11px;	font-weight: bold;	letter-spacing: 3px;	line-height: 24px;
+}
+.homepage-top span.span-small2{
+    font-family: "Open Sans";	font-size: 16px;	font-weight: 300;	line-height: 20px;
+}
+.about-section .wrapper{
+    max-width: 901px;
+    margin: auto;
+    margin-bottom: 94px;
+    margin-top: 80px;
+}
+.about-section h1{
+    color: #333333;	font-size: 32px;	font-weight: 300;	line-height: 44px;
+    margin-bottom: 30px;
+}
+.about-section p{
+    color: #777777; font-size: 15px;	font-weight: 300;	line-height: 30px;
+}
+.home-section3 h1{
+    color: #333333; font-size: 32px; font-weight: 300;	line-height: 44px;
+    margin-bottom: 30px;
+}
+.home-section3 p{
+    color: #777777;	font-size: 15px;	font-weight: 300;	line-height: 30px;
+}
+.home-section3 .why-to-choose{
+    padding-top: 130px;
+    padding-bottom: 30px;
+    padding-left: 80px;
+}
+.home-section3 .why-to-choose .wrapper{
+    max-width: 493px;
+}
+.home-portfolio-section h1{
+    color: #333333;	font-family: "Open Sans";	font-size: 32px;	font-weight: 300;	line-height: 44px;
+    margin-top: 87px;
+}
+.home-portfolio-section p{
+    color: #777777;	font-family: "Open Sans";	font-size: 15px;	font-weight: 300;	line-height: 30px;
+    margin-bottom: 45px;
+}
+.home-portfolio-section ul{
+    list-style-type: none;
+    text-align: center;
+}
+.home-portfolio-section ul li{
+    display: inline-block;
+    color: #3498DB;	font-family: Raleway;	font-size: 11px;	font-weight: bold;	letter-spacing: 3px;	line-height: 11px;
+    cursor: pointer;
+    margin: 0px 25px;
+    padding-bottom: 8px;
+}
+.home-portfolio-section ul li.active{
+    border-bottom: 2px solid #3498DB;
+
+}
+.home-masonry{
+    margin-top: 60px;
+}
+.home-masonry img{
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+}
+.home-masonry .card{
+    margin-bottom: 0px;
+    border: 0px;
+}
